@@ -1,4 +1,5 @@
-from tim.instance.app import app
+from tim.controller.app import APP, API, NS_CONF
+
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)
+    APP.run(host='0.0.0.0', port=5000)
